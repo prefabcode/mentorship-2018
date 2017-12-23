@@ -8,7 +8,7 @@ console.log("Type of myVal is:" + typeof myVal);
 myVal = "foobar";
 console.log("Type of myVal is:" + typeof myVal);
 
-myVal = {};
+myVal = {name:'lennie', favColor:'green'}; 
 console.log("Type of myVal is:" + typeof myVal);
 
 myVal = false;

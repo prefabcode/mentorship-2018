@@ -12,8 +12,15 @@ function Car() {
     
     return this;
 }
+
+// class Vehicle {
+//     constructor() {
+//         this.brand = "Mercedes"
+//     }
+// }
 // 
-var myCar = Car();
+
+var myCar = new Car();
 
 console.log(myCar);
 
