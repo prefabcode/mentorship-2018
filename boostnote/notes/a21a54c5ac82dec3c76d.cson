@@ -1,0 +1,30 @@
+createdAt: "2017-12-31T21:02:15.204Z"
+updatedAt: "2017-12-31T21:16:07.988Z"
+type: "MARKDOWN_NOTE"
+folder: "d85c0e0fd721df022621"
+title: "Jan 06 class"
+content: '''
+  ## Jan 06 class
+  
+  1. Is JavaScript Pass by reference or pass by value?
+  2. Discussion about Scope
+      * What happens when you define variables / functions - in the context of scope
+      * What are the consequences of adding things to the global scope
+      * Self-Invoking functions or IIFEs
+      * Using Let / Const to define variables instead of VAR 
+  3. Diving in to HTML / CSS / jQuery for event driven programming
+      * How do events work in JavaScript?
+      * How can we bind events to elements?
+      * What is AJAX and how we can use it to get data from an API endpoint
+        * Brief review of API endpoints
+          * Example using github API to add cards to a webpage
+      * What is JSON and how to we bind the data that we're getting to the UI / HTML
+  4. Hiking / Nature API starter files, and homework. 
+  5. Algorithm question of the week:
+    Write a function to tell if one string is a permutation of another string in JavaScript
+  
+    
+'''
+tags: []
+isStarred: false
+isTrashed: false
