@@ -7,18 +7,29 @@
     
     <div class="container">
         <input type="text" id="user" />
-        <button id="search"></button>
+        <button id="search">Search</button>
     </div>
     <div id="result">
-        <!-- remember to add express webserver -->
+        <!-- add stuff here -->
     </div>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript">
+
         $(document).ready(function() {
             // api.github.com/users/username
             // add handler to search github API using $.get()
+            $('#search').click(function(){
+                var user = $('#user').val();
+                var apiUrl = "https://api.github.com/users/" + user;
 
+                $.get(apiUrl, function(data) {
+                    console.log(data);
+                    $('#result').append("Login:" + data.login); 
+                })
+            });
+
+            
         });
     </script>
     

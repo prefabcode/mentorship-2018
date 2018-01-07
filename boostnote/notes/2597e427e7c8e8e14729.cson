@@ -1,0 +1,40 @@
+createdAt: "2018-01-07T21:20:32.776Z"
+updatedAt: "2018-01-07T21:35:57.882Z"
+type: "MARKDOWN_NOTE"
+folder: "d85c0e0fd721df022621"
+title: "Jan 14th class"
+content: '''
+  ## Jan 14th class
+  
+  1. Permutation question review
+  2. Is JavaScript pass by reference or pass by value?
+  3. setTimeOut vs setInterval
+  4. Arrays in JavaScript - how can you use them?
+  5. 'this' keyword in javascript
+      * How is 'this' mutated
+  6. Object prototypes
+      * How are they used?
+      * What are they used for?
+  7. es6 features
+      * let / const
+      * arrow functions
+      * spread / rest operators
+      * classes, extends keyword
+  8. HTML review
+      * What are the different element types
+      * What is the difference between a block / inline element
+      * list of some commonly used elements.
+  9. CSS review   
+      * What does CSS stand for?
+      * What are selectors? What are Properties? What are rules?
+      * How do we include CSS in an HTML file.
+      * What is the specificity engine? How does it work?
+  
+  Bonus:
+  Review Markdown format
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,19 @@
+createdAt: "2018-01-07T17:45:35.900Z"
+updatedAt: "2018-01-07T18:06:52.948Z"
+type: "MARKDOWN_NOTE"
+folder: "d85c0e0fd721df022621"
+title: "Recipes app based on age weight and food preferences."
+content: '''
+  1. Recipes app based on age weight and food preferences.
+      * Enter stuff in fridge and it would generate recipes.
+  2. Languages 5 words a day for any language.
+  3. Birthday wish website - basically it would send email on day when 
+  4. Clothing advisor based on weather. 
+  5. Traveling based on budget
+  6. Recipes based on shopping list. 
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
