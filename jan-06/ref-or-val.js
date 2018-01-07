@@ -1,7 +1,6 @@
 // is JavaScript pass by reference or pass by value?
-
-
-
+// number, string, Boolean, undefined, and null pass by value
+// objects passed by reference. 
 var value = 10;
 
 console.log("Before any function calls:", value);
