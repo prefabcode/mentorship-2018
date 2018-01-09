@@ -32,8 +32,4 @@
   ## Homework assignment for next class:
   Choose any page on the internet, it could be youtube, it could be facebook, it could be netflix. Create a user made stylesheet on userstyles.org and customize the page to your liking. This will allow you to practice basic styling techniques. Upload your work to github. 
   
-  ## things I can do better for next time:
-  1. Focus more on algorithms. Discuss solutions to the problem, get to a solution and code it - execute it and see it working. 
-      * Have the courage to read their code, understand their code, and talk about their code. 
-  2. Distribute my time evenly amongst all 3 of them. 
   
