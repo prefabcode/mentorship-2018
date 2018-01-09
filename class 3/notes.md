@@ -1,11 +1,6 @@
-createdAt: "2018-01-07T21:20:32.776Z"
-updatedAt: "2018-01-08T02:02:16.844Z"
-type: "MARKDOWN_NOTE"
-folder: "d85c0e0fd721df022621"
-title: "Jan 14th class"
-content: '''
   ## Jan 14th class
-  
+
+  0. Markdown and visual studio code - why you'll never use anything else for your class notes.
   1. Permutation question review
       * Discuss big (o) notation  
   2. Is JavaScript pass by reference or pass by value?
@@ -42,9 +37,3 @@ content: '''
       * Have the courage to read their code, understand their code, and talk about their code. 
   2. Distribute my time evenly amongst all 3 of them. 
   
-  
-  
-'''
-tags: []
-isStarred: false
-isTrashed: false

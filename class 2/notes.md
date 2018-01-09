@@ -1,0 +1,25 @@
+  ## Jan 06 class
+  
+  1. Is JavaScript Pass by reference or pass by value?
+  2. Discussion about Scope
+      * What happens when you define variables / functions - in the context of scope
+      * What are the consequences of adding things to the global scope
+      * Self-Invoking functions or IIFEs
+      * Using Let / Const to define variables instead of VAR 
+  3. Diving in to HTML / CSS / jQuery for event driven programming
+      * Show how package management works in JavaScript (npm, yarn)
+      * What is the DOM?
+        * Use console.log on web page to show what the dom looks like.
+      * How does the document.ready function work in jQuery
+      * How do events work in JavaScript?
+      * How can we bind events to elements?
+      * What is AJAX and how we can use it to get data from an API endpoint
+        * Brief review of API endpoints
+          * Use $.get() to retrieve data from API
+          * Example using github API to add cards to a webpage
+      * What is JSON and how to we bind the data that we're getting to the UI / HTML
+  4. Hiking / Nature API starter files, and homework. 
+  5. Algorithm question of the week:
+    Write a function to tell if one string is a permutation of another string in JavaScript
+    A string is a permutation of another string if... both strings have the same length and have the same characters - in different order (or same order).
+  
