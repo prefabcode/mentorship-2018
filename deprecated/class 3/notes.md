@@ -2,9 +2,10 @@
 
   0. Markdown and visual studio code - why you'll never use anything else for your class notes.
   1. Permutation question review
-      * Discuss big (o) notation  
-  2. Is JavaScript pass by reference or pass by value?
-  3. setTimeOut vs setInterval
+      * Discuss big (o) notation
+      * [Beginner article on big O](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)  (Done)
+  2. Is JavaScript pass by reference or pass by value? (Done)
+  3. setTimeOut vs setInterval (Done)
   4. Arrays in JavaScript - how can you use them?
   5. 'this' keyword in javascript
       * How is 'this' mutated
