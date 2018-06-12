@@ -17,7 +17,10 @@
 
             <h2>Hello, {{name}}, Here is your todo list for today</h2>
             <ul>
-                <li v-for="todo in todoList">{{todo}}</li>
+                <li v-for="todo, index in todoList">
+                    <!-- <span v-if="index === 2">{{todo}}</span> -->
+                    {{todo}}
+                </li>
             </ul>
         </div>
 

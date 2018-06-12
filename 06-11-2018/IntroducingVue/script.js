@@ -13,3 +13,6 @@ const app = new Vue({
         }  
     }
 });
+
+
+// show app.todoList.push().
