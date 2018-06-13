@@ -1,0 +1,24 @@
+<html>
+    <head>
+
+        <title>New Hotness</title>
+        <script src="node_modules/vue/dist/vue.min.js"></script>
+    </head>
+
+    <body>
+        <div id="app">
+            <h2>Introducing Vue, a Component Framework</h2>
+
+            <button v-on:click="clickAction">Click Me</button>
+            <div v-if="message">
+                <br>
+                {{message}}
+            </div>
+
+            <h2>Hello, {{name}}, Here is your todo list for today</h2>
+            <todo-list></todo-list>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
