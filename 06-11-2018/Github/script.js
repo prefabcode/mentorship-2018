@@ -8,9 +8,10 @@ const app = new Vue({
         search() {
             if (this.username.length > 0) {
                 const apiUrl = 'https://api.github.com/users/' + this.username;
+                const that = this;
                 axios.get(apiUrl).then(function(response) {
                     console.log(response);
-                    this.login = response.data.login;
+                    that.login = response.data.login;
                 }, function(err) {
                     console.log(err);
                 });
