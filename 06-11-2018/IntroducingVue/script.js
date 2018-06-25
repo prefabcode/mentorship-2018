@@ -4,6 +4,10 @@ const app = new Vue({
         name: 'Lenny',
         todoList: ['Do Laundry', 'Walk the dog', 'Buy Groceries', 'Study for test'],
         message: null,
+        myFunc: function() {
+            console.log('function invoked');
+            this.name = 'Wong';
+        },
     },
     methods: {
         clickAction: function() {
@@ -13,6 +17,8 @@ const app = new Vue({
         }  
     }
 });
+
+console.log(app);
 
 
 // show app.todoList.push().

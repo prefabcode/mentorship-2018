@@ -3,6 +3,7 @@
 
 var myBool = true;
 
+const myConst = "ok";
 if (myBool) {
     let myStr = "Will this be visible outside the if statement?";
     var myVarStr = "Will this be visible outside the if statement?";

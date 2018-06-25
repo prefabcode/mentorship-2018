@@ -9,12 +9,15 @@ const vueInit = {
         funcOne: function() {
             console.log(this);
             function InternalFuncOne() {
-                // console.log(this);
+
             }
             InternalFuncOne();
-        }
+        },
+        name: 'Lennie',
     }
 }
+
+vueInit.methods.funcOne();
 
 const vueInstance = new Vue(vueInit);
 vueInstance.funcOne();
