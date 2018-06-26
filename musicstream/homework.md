@@ -36,9 +36,5 @@ corner of the page. Click the Authentication button.
 4. Scroll down to "Generate an Access Token". For our purposes, under Scopes - just check "Public". Click Generate Token. 
 5. Paste your token into API_KEY in vimeo.service.js as a string. 
 
-```javascript
-// vimeo.service.js
-const API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX1bdc';
-```
 
 
