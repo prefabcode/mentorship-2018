@@ -18,9 +18,9 @@ export default {
 To do this assignment, you can use the first element in the video array returned from vimeo. Pass in video url, video title into the MediaItem component as props. Don't worry about iterating through the entire collection returned from vimeo just yet. For styling of a MediaItem, you can use Bootstrap Card component. 
 
 Some helpful links:
-https://bootstrap-vue.js.org/docs/components/card/
-https://vuejs.org/v2/guide/components.html
-https://vuejs.org/v2/guide/components-registration.html
-https://vuejs.org/v2/guide/components-props.html
+* https://bootstrap-vue.js.org/docs/components/card/
+* https://vuejs.org/v2/guide/components.html
+* https://vuejs.org/v2/guide/components-registration.html
+* https://vuejs.org/v2/guide/components-props.html
 
 
