@@ -11,20 +11,19 @@
 </template>
 
 <script>
-import EventBus from '../../main.js';
+import EventBus from '../../main';
 
 export default {
-    data() {
-        return {
-           searchQuery: '', 
-        }
+  data() {
+    return {
+      searchQuery: '',
+    };
+  },
+  methods: {
+    search() {
+      EventBus.$emit('search', this.searchQuery);
     },
-    methods: {
-        search() {
-            console.log('hit');
-            EventBus.$emit('search', this.searchQuery);
-        }
-    }
+  },
 };
 
 </script>

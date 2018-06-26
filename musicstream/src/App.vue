@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <media-search />
-    <video-grid />
+    <media-grid />
   </div>
 </template>
 
 <script>
-import MediaSearch from './components/search/MediaSearch';
-import VideoGrid from './components/videogrid/VideoGrid';
+import MediaSearch from './components/search/MediaSearch.vue';
+import MediaGrid from './components/media-grid/MediaGrid.vue';
 
 export default {
   name: 'app',
   components: {
     MediaSearch,
-    VideoGrid,
+    MediaGrid,
   },
 };
 </script>
