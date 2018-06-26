@@ -24,3 +24,21 @@ Some helpful links:
 * https://vuejs.org/v2/guide/components-props.html
 
 
+### How to get data from Vimeo
+
+To get data from vimeo, you have to provide your own API_KEY in vimeo.service.js
+To get your own API_KEY: 
+
+1. Go to https://developer.vimeo.com/apps/new?source=getting-started and register an App. You can spoof the details but you need this step in order to make an API_KEY. You will need to register for an account with vimeo to do this. 
+2. Go to https://developer.vimeo.com/apps and click on the app you registered. 
+3. You should see "Details" and "Authentication" grouped together on the top-left
+corner of the page. Click the Authentication button. 
+4. Scroll down to "Generate an Access Token". For our purposes, under Scopes - just check "Public". Click Generate Token. 
+5. Paste your token into API_KEY in vimeo.service.js as a string. 
+
+```javascript
+// vimeo.service.js
+const API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX1bdc';
+```
+
+
