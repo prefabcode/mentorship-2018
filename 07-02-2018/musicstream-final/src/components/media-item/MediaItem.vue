@@ -10,14 +10,11 @@
 </template>
 
 <script>
-/*
-    What props does this component need? 
-    videoURL and VideoTitle
-*/
-export default {    
-    props: {
-        videoUrl: String,
-        videoTitle: String,
-    },
+
+export default {
+  props: {
+    videoUrl: String,
+    videoTitle: String,
+  },
 };
 </script>

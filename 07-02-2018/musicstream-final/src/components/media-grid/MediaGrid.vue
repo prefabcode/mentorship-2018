@@ -1,8 +1,8 @@
 <template>
     <div class="container" >
-      <div class="row" v-for="idx in rowCount" v-bind:key="idx">
+      <div class="row" v-for="row in rowCount" v-bind:key="row">
         <div class="offset-1"></div>
-        <div class="col-2" v-for="(mediaItem, jdx) in itemCountInRow(idx)" v-bind:key="jdx">
+        <div class="col-2" v-for="(mediaItem, jdx) in mediaItemsInRow(row)" v-bind:key="jdx">
           <media-item :video-url="mediaItem.uri" :video-title="mediaItem.name"></media-item>
         </div>
       </div>
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import MediaItem from '../media-item/MediaItem';
+import MediaItem from '../media-item/MediaItem.vue';
 import EventBus from '../../main';
 import vimeoService from '../../services/vimeo.service';
 
@@ -22,7 +22,7 @@ export default {
     };
   },
   components: {
-    MediaItem
+    MediaItem,
   },
   mounted() {
     EventBus.$on('search', (query) => {
@@ -38,15 +38,15 @@ export default {
         console.log(err);
       });
     },
-    itemCountInRow:function(index){
-     return this.mediaItems.slice((index - 1) * this.itemsPerRow, index * this.itemsPerRow)
-    }
+    mediaItemsInRow(row) {
+      return this.mediaItems.slice((row - 1) * this.itemsPerRow, row * this.itemsPerRow);
+    },
   },
   computed: {
     rowCount() {
-      return Math.ceil(this.mediaItems.length / this.itemsPerRow)
-    }
-  }
+      return Math.ceil(this.mediaItems.length / this.itemsPerRow);
+    },
+  },
 };
 
 
